@@ -1,0 +1,11 @@
+# TEAM
+
+    Alexsandro Teixeira - Mobile Developer
+    Cristiano Becker - Javascript Developer - @cristianobecker
+    Guilherme Cardoso - Game Developer - @guilecc
+    Jonathan Ayres - Art Director
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, JS
+    jQuery, Modernizr, Grunt, Sublime Text

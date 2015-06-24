@@ -1,0 +1,344 @@
+@media only screen and (min-width: 768px) {
+
+/* =======
+    TABLET: 
+   ======= */
+
+    
+    /* Sprites */
+    .arrow1, .arrow2, .arrow3, .arrow4, .arrow5, .arrow6, .arrow7, 
+    .bullet-link, .icon-brain, .icon-eye, .section-body-highlight, 
+    .sectionmarker-disabled, .sectionmarker-enabled, .talk-ballon, 
+    .talk-highlight {
+        background-image: url(../img/sprites/sprites-big.png);
+    }
+    
+    .arrow1 {
+        background-position: 0 0;
+        width: 71px;
+        height: 207px;
+    }
+    
+    .arrow2 {
+        background-position: -72px 0;
+        width: 101px;
+        height: 205px;
+    }
+    
+    .arrow3 {
+        background-position: -174px -156px;
+        width: 197px;
+        height: 116px;
+    }
+    
+    .arrow4 {
+        background-position: 0 -208px;
+        width: 52px;
+        height: 216px;
+    }
+    
+    .arrow5 {
+        background-position: -175px 0;
+        width: 158px;
+        height: 155px;
+    }
+    
+    .arrow6 {
+        background-position: -335px 0;
+        width: 160px;
+        height: 154px;
+    }
+    
+    .arrow7 {
+        background-position: -373px -156px;
+        width: 181px;
+        height: 137px;
+    }
+    
+    .bullet-link {
+        background-position: -53px -208px;
+        width: 24px;
+        height: 25px;
+    }
+    
+    .icon-brain {
+        background-position: -80px -208px;
+        width: 36px;
+        height: 30px;
+    }
+    
+    .icon-eye {
+        background-position: -117px -208px;
+        width: 32px;
+        height: 18px;
+    }
+    
+    .section-body-highlight {
+        background-position: -111px -275px;
+        width: 132px;
+        height: 67px;
+    }
+    
+    .sectionmarker-disabled {
+        background-position: -136px -231px;
+        width: 15px;
+        height: 14px;
+    }
+    
+    .sectionmarker-enabled {
+        background-position: -118px -231px;
+        width: 15px;
+        height: 14px;
+    }
+
+    .talk-ballon {
+        background-position: -276px -296px;
+        width: 164px;
+        height: 141px;
+        line-height: 141px;
+        font-size: 1.5em;
+        padding-right: 50px;
+    }
+    
+    .talk-highlight {
+        background-position: -53px -345px;
+        width: 220px;
+        height: 110px;
+    }
+    
+    
+    /* Structure */    
+    #header-logo {
+        width: 527px;
+        height: 414px;
+    }
+
+    
+    #header-language {
+        bottom: 70px;
+        right: 45px;
+        font-size: 1.05em;
+    }
+
+
+    #header-menu {
+        display: block;
+        bottom: 40px;
+        right: 40px;
+    }
+
+    .menu-link {
+        display: inline-block;
+        background-color: rgba(123, 0, 254, 0.2);
+    }
+
+    .no-rgba .menu-link {
+        background-color: #7b00fe;
+        opacity: 0.2;
+    }
+
+    .active-menu.menu-link {
+        display: inline-block;
+    }
+
+
+    .section-title {
+        font-size: 1em;
+    }
+    
+    .section-subtitles {
+        font-size: 2.4em;
+    }
+
+    .section-quote {
+        font-size: 2.4em;
+        line-height: 1.3em;
+        padding-right: 69px;
+        margin: 40px;
+    }
+
+    .section-quote:before,
+    .section-quote:after {
+        background-image: url(../img/sprites/sprites-big.png);
+        width: 54px;
+        height: 48px;
+    }
+
+    .section-quote:before {
+        margin-right: 15px;
+        background-position: -53px -241px;
+    }
+    
+    .section-quote:after {
+        margin: 12px -69px 0 15px;
+        background-position: -53px -291px;
+    }
+    
+    
+    
+    /* Content */
+    #wrapper {
+        min-height: 900px;
+    }
+
+    #the-crow {
+        width: 1883px;
+        height: 1610px;
+    }
+    
+    
+    /* Apparatus */
+    #section-apparatus-title {
+        top: 150px;
+        left: 300px;
+    }
+    
+    #section-apparatus-subtitles {
+        top: 550px; 
+        left: 75px;
+    }
+    
+    #section-apparatus-elements {
+        top: 290px;
+        left: 170px;
+    }
+    
+    #section-apparatus-elements .arrow1 {
+        top: 210px;
+        left: 100px;
+    }
+    
+    #section-apparatus-elements .arrow2 {
+        top: 45px;
+        left: -30px;
+    }
+    
+    #section-apparatus-elements .icon-brain {
+        top: 25px;
+        left: 48px;
+    }
+    
+    
+    /* expertise */
+    #section-expertise-title {
+        top: 150px;
+        left: 300px;
+    }
+    
+    #section-expertise-2-subtitles {
+        top: 550px; 
+        left: 40px;
+    }
+    
+    #section-expertise-2-elements {
+        top: 297px;
+        left: 188px;
+    }
+    
+    #section-expertise-2-elements .arrow1 {
+        top: 130px;
+        left: 100px;
+    }
+    
+    #section-expertise-2-elements .arrow2 {
+        top: 27px;
+        left: -20px;
+    }
+    
+    #section-expertise-2-elements .icon-eye {
+        top: 29px;
+        left: 51px;
+    }
+    
+    
+    #section-expertise-3-subtitles {
+        top: 440px;
+        left: 30px;
+        font-size: 1.9em;
+    }
+    
+    #section-expertise-3-list {
+        top: 730px;
+        left: 200px;
+        width: 270px;
+        text-align: left;
+    }
+    
+    #section-expertise-3-list .section-list-item {
+        margin: 0 10px 10px 0;
+    }
+    
+    #section-expertise-3-list img {
+        max-width: none;
+    }
+    
+    #section-expertise-3-elements {
+        top: 365px;
+        left: 250px;
+    }
+    
+    #section-expertise-3-elements .arrow3 {
+        display: block;
+    }
+    
+    #section-expertise-3-elements .arrow4 {
+        top: 150px;
+        left: 230px;
+    }
+    
+    #section-expertise-3-elements .arrow5 {
+        display: none;
+    }
+
+
+    #section-expertise-1-subtitles {
+        top: 500px;
+        left: 410px;
+    }
+    
+    #section-expertise-1-elements {
+        top: 450px;
+        left: 200px;
+    }
+
+    #section-expertise-1-elements .arrow6 {
+        top: 50px;
+        left: 35px;
+    }
+
+    
+    /* Home */
+    #section-home-quote {
+        top: 500px;
+        margin-left: 20px;
+        width: 300px;
+    }
+
+
+    /* Contact */
+    #contact-email {
+        top: 340px;
+        font-size: 2.5em;
+    }
+
+    #contact-facebook {
+        top: 390px;
+        font-size: 1.5em;
+    }
+
+    .section-contact-object, .section-contact-link {
+        width: 320px;
+        margin-left: -160px;
+    }
+
+    #contact-telefone {
+        top:450px;
+        font-size: 2.6em;
+    }
+
+    #contact-address {
+        top:500px;
+        font-size: 1.2em;
+    }
+    
+}

@@ -1,0 +1,360 @@
+/* ==========================================================================
+   Geral
+   ========================================================================== */
+
+body {
+    font: 1em/1 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+/* Workarounds */
+.msie .section-item * {
+    filter: inherit;
+    opacity: inherit;
+}
+
+
+/* Sprites */
+.arrow1, .arrow2, .arrow3, .arrow4, .arrow5, .arrow6, 
+.arrow7, .bullet-link, .icon-brain, .icon-eye, .quote-left, 
+.quote-right, .section-body-highlight, .sectionmarker-disabled, 
+.sectionmarker-enabled, .talk-ballon, .talk-highlight {
+    position: absolute;
+    background: transparent none no-repeat 0 0;
+}
+
+.talk-ballon {
+    color: #fff;
+    font-weight: 100;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/* Structure */
+#header-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.resize #header-logo img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+
+#header-language {
+    position: absolute;
+    font-weight: 400;
+    text-align: right;
+    text-decoration: none;
+    color: rgba(123, 0, 254, 0.6);
+    z-index: 2;
+}
+
+.no-touch #header-language:hover {
+    color: #7b00fe;
+}
+
+.no-rgba #header-language {
+    color: #7b00fe;
+}
+
+
+
+#header-menu {
+    position: absolute;
+    z-index: 2;
+}
+
+.menu-item {
+    display: inline-block;
+    vertical-align: top;
+}  
+
+.menu-link {
+    text-decoration: none;
+}
+
+.menu-link span {
+    display: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.expanded .menu-link {
+    width: auto;
+    padding: 0 15px;
+    background-color: rgba(123, 0, 254, 0.6);
+}
+
+.no-rgba .expanded .menu-link {
+    background-color: #7b00fe;
+}
+
+.expanded .menu-link span {
+    display: inline;
+}
+
+.no-touch .menu-link:hover {
+    background-color: rgba(123, 0, 254, 0.5);
+}
+
+.no-touch .expanded .menu-link:hover {
+    background-color: rgba(123, 0, 254, 0.9);
+}
+
+.no-rgba.no-touch .menu-link:hover {
+    opacity: 0.5;
+}
+
+.no-rgba.no-touch .expanded .menu-link:hover {
+    opacity: 0.9;
+}
+
+#header-menu .active-menu {
+    background-color: rgba(123, 0, 254, 0.8);
+}
+
+.no-rgba #header-menu .active-menu {
+    opacity: 0.5;
+}
+
+.section-title {
+    position: absolute;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+} 
+
+.section-title .normal {
+    position: absolute;
+    display: block;
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+.section-title .big {
+    position: absolute;
+    display: block;
+    font-size: 6em;
+}
+
+.section-elements {
+    position: absolute;
+}
+
+.section-subtitles {
+    position: absolute;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.section-quote {
+    position: absolute;
+    font-style: italic;
+    font-weight: 100;
+    text-align: right;
+}
+
+.section-quote:before,
+.section-quote:after {
+    content: "";
+    display: inline-block;
+    background: transparent none no-repeat 0 0;
+}
+
+.section-quote:after {
+    vertical-align: top;
+}
+
+.section-subtitle-item {
+    font-weight: 100;
+    margin-bottom: 0.4em;
+}
+
+.section-subtitle-subitem {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #999;
+    text-transform: none;
+    margin: -0.5em 0 0.7em 0;
+}
+
+.section-list {
+    position: absolute;
+}
+
+.section-list-item {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+}
+
+
+/* Content */
+#wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#the-crow {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.resize #the-crow img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#feather-crow,
+#feather-small,
+#feather-big {
+    position: absolute;
+}
+
+.section-item,
+.section-content {
+    pointer-events: none;
+}
+
+.active-section {
+    z-index: 1;
+    pointer-events: auto;
+}
+
+.active-content {
+    pointer-events: auto;
+}
+
+
+/* Sections General */
+.section-item {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Apparatus */
+#section-apparatus-title .normal {
+    left: 1em;
+}
+
+#section-apparatus-title .big {
+    top: 0.3em;
+    left: 0;
+}
+
+#section-apparatus-subtitles {
+    text-align: right;
+}
+
+
+/* expertise */
+#section-expertise-title .normal {
+    left: 1.5em;
+}
+
+#section-expertise-title .big {
+    top: 0.2em;
+}
+
+.en #section-expertise-title .normal {
+    font-size: 1.5em;
+}
+
+.en #section-expertise-title .big {
+    font-size: 4em;
+    left: -0.7em;
+}
+
+#section-expertise-2-subtitles {
+    text-align: right;
+}
+
+#section-expertise-3-subtitles {
+    color: #999;
+    font-weight: 100;
+}
+
+#section-expertise-3-subtitles h3 {
+    color: #000;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    text-transform: none;
+    font-style: normal;
+    display: inline;
+    font-size: 1.8em;
+    line-height: 0.8em;
+}
+
+#section-expertise-3-list {
+    text-align: right;
+}
+
+
+/* Home */
+#home-tip {
+    position: absolute;
+}
+
+.no-touch #home-tip .touch {
+    display: none;
+}
+
+.touch #home-tip .keyboard {
+    display: none;
+}
+
+#section-home-title .normal {
+    left: 1.15em;
+}
+
+#section-home-title .big {
+    top: 0.25em;
+}
+
+
+/* Contact */
+.section-contact-object, .section-contact-link {
+    color: #7b00fe;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    position: absolute;
+    padding: 5px 5px 10px;
+    left: 50%;
+}
+
+.section-contact-object {
+   /* color: #000;*/
+    font-weight: 100;
+}
+
+.no-touch .section-contact-link:hover {
+    background-color: #7b00fe;
+    color: #fff;
+}
+
+
+
+/* Loading */
+.loading #wrapper {
+    display: none;
+}

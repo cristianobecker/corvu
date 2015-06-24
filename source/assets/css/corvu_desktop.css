@@ -1,0 +1,167 @@
+@media only screen and (min-width: 1024px) {
+
+/* =========
+    DESKTOP
+   ========= */
+
+    /* Awwards */
+    .awards {
+        display: block;
+    }
+
+    /* Structure */    
+    #header-language, 
+    #header-menu {
+        position: fixed;
+    }
+
+
+    /* Content */
+    #wrapper {
+        min-height: 680px;
+    }
+
+    
+    /* Apparatus */
+    #section-apparatus-title {
+        top: 100px;
+        left: 530px;
+    }
+    
+    #section-apparatus-subtitles {
+        top: 450px;
+        left: 250px;        
+    }
+    
+    #section-apparatus-elements {
+        top: 190px;
+        left: 340px;
+    }
+    
+    /* expertise */
+    #section-expertise-title {
+        top: 100px;
+        left: 530px;
+    }
+
+    .en #section-expertise-title {
+        top: 120px;
+        left: 530px;
+    }
+    
+    #section-expertise-2-subtitles {
+        top: 450px;
+        left: 160px;        
+    }
+    
+    #section-expertise-2-elements {
+        top: 195px;
+        left: 305px;        
+    }
+
+
+    #section-expertise-3-subtitles {
+        font-size: 2.4em;
+        top: 270px;
+        left: 150px;
+    }
+
+    #section-expertise-3-list {
+        top: 500px;
+    }
+
+    #section-expertise-3-elements {
+        top: 180px;
+        left: 460px;
+    }
+
+    #section-expertise-3-elements .arrow3 {
+        top: 290px;
+        left: 10px;
+    }
+
+    #section-expertise-3-elements .arrow4 {
+        display: none;
+    }
+
+    #section-expertise-3-elements .arrow5 {
+        display: block;
+    }
+    
+    #section-expertise-1-subtitles {
+        top: 420px;
+        left: 650px;
+    }
+    
+    #section-expertise-1-elements {
+        top: 340px;
+        left: 450px;
+    }
+    
+    #section-expertise-1-elements .arrow6 {
+        top: 75px;
+        left: 0;   
+    }
+    
+    /* Home */
+    #section-home-title {
+        left: 500px;
+    }
+
+    #section-home-quote {
+        top: 360px;
+        width: 420px;
+    }
+
+    #home-tip {
+        top: 200px;
+        left: 160px;
+        right: 0;
+        bottom: 0;
+        color: #fff;
+        font-weight: 100;
+        font-style: italic;
+        text-align: center;
+        width: 164px;
+        height: 51px;
+        font-size: 1.2em;
+        line-height: 1.2em;
+        padding: 45px 50px 45px 0;
+        background: transparent url(../img/sprites/sprites-big.png) no-repeat -276px -296px;
+    }
+
+    .en #home-tip {
+        width: 134px;
+        padding: 45px 70px 45px 10px;
+    }
+
+    #home-tip .keyboard,
+    #home-tip .touch {
+        top: auto;
+        left: auto;
+        width: auto;
+        height: auto;
+        position: static;
+        margin: 0;
+    }
+
+
+     /* Contact */
+    #contact-email {
+        top: 370px;
+    }
+
+    #contact-facebook {
+        top: 420px;
+    }
+
+    #contact-telefone {
+        top:470px;
+    }
+
+    #contact-address {
+        top:520px;
+    }
+
+
+}

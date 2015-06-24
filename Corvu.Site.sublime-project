@@ -1,0 +1,36 @@
+{
+    "folders":
+    [
+        { 
+            "path": ".",
+            "folder_exclude_patterns": [ "build", "psd", "node_modules" ], 
+            "file_exclude_patterns": [ "*.sublime-*", "*.gitignore" ]
+        }
+    ],
+    "settings":
+    {
+        "tab_size": 4,
+        "translate_tabs_to_spaces": false
+    },
+    "build_systems":
+    [
+        {
+            "name": "Projeto",
+            "working_dir": "${project_path:Default}/Site",
+            "path": "/usr/local/bin",
+            "cmd": [ "grunt", "--no-color" ]
+        },
+        {
+            "name": "FTP (Prod)",
+            "working_dir": "${project_path:Default}/Site",
+            "path": "/usr/local/bin",
+            "cmd": [ "grunt", "deploy:prod", "--no-color" ]
+        },
+        {
+            "name": "FTP (Prod Fast)",
+            "working_dir": "${project_path:Default}/Site",
+            "path": "/usr/local/bin",
+            "cmd": [ "grunt", "deploy:prodfast", "--no-color" ]
+        }
+    ]
+}

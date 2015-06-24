@@ -1,0 +1,379 @@
+/* ==========================================================================
+   MOBILE
+   ========================================================================== */
+
+/* Sprites */
+.arrow1, .arrow2, .arrow3, .arrow4, .arrow5, .arrow6, .arrow7, 
+.bullet-link, .icon-brain, .icon-eye, .section-body-highlight, 
+.sectionmarker-disabled, .sectionmarker-enabled, .talk-ballon, 
+.talk-highlight {
+    background-image: url(../img/sprites/sprites-small.png);
+}
+
+.arrow1 {
+    background-position: 0 0;
+    width: 43px;
+    height: 124px;
+}
+
+.arrow2 {
+    background-position: -43px 0;
+    width: 61px;
+    height: 123px;
+}
+
+.arrow3 {
+    background-position: -104px -94px;
+    width: 118px;
+    height: 70px;
+}
+
+.arrow4 {
+    background-position: 0 -125px;
+    width: 31px;
+    height: 130px;
+}
+
+.arrow5 {
+    background-position: -105px 0;
+    width: 95px;
+    height: 93px;
+}
+
+.arrow6 {
+    background-position: -201px 0;
+    width: 96px;
+    height: 92px;
+}
+
+.arrow7 {
+    background-position: -224px -94px;
+    width: 109px;
+    height: 82px;
+}
+
+.bullet-link {
+    background-position: -32px -125px;
+    width: 14px;
+    height: 15px;
+}
+
+.icon-brain {
+    background-position: -48px -125px;
+    width: 22px;
+    height: 18px;
+}
+
+.icon-eye {
+    background-position: -70px -125px;
+    width: 19px;
+    height: 11px;
+}
+
+.quote-left {
+    background-position: -32px -145px;
+    width: 32px;
+    height: 29px;
+}
+
+.quote-right{
+    background-position: -32px -175px;
+    width: 32px;
+    height: 29px;
+}
+
+.section-body-highlight{
+    background-position: -67px -165px;
+    width: 79px;
+    height: 40px;
+}
+
+.sectionmarker-disabled{
+    background-position: -82px -139px;
+    width: 9px;
+    height: 8px;
+}
+
+.sectionmarker-enabled{
+    background-position: -71px -139px;
+    width: 9px;
+    height: 8px;
+}
+
+.talk-ballon{
+    background-position: -166px -178px;
+    width: 98px;
+    height: 85px;
+    padding-right: 30px;
+    line-height: 85px;
+}
+
+.talk-highlight {
+    background-position: -32px -207px;
+    width: 132px;
+    height: 66px;
+}
+
+
+/* Structure */
+#header-logo {
+    width: 263px;
+    height: 207px;
+}
+
+
+#header-language {
+    bottom: 40px;
+    right: 15px;
+}
+
+
+#header-menu {
+    bottom: 10px;
+    right: 10px;
+}
+
+.menu-link {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+    display: none;
+    background-color: #7b00fe;
+}
+
+.expanded .menu-link {
+    display: inline-block;
+}
+
+.menu-link span {
+    font-size: 1em;
+    line-height: 20px;
+}
+
+.active-menu.menu-link {
+    display: none;
+}
+
+
+.section-title {
+    font-size: 0.4em;
+}
+
+.section-subtitles {
+    font-size: 1.6em;
+}
+
+.section-quote {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin: 20px;
+    padding-right: 39px;
+}
+
+.section-quote:before,
+.section-quote:after {
+    background-image: url(../img/sprites/sprites-small.png);
+    width: 32px;
+    height: 29px;
+}
+
+.section-quote:before {
+    margin-right: 7px;
+    background-position: -32px -145px;
+}
+
+.section-quote:after {
+    margin: 6px -39px 0 7px;
+    background-position: -32px -175px;
+}
+
+
+
+/* Content */
+#wrapper {
+    min-height: 420px;
+}
+
+#the-crow {
+    width: 847px;
+    height: 724px;
+}
+
+
+/* Apparatus */
+#section-apparatus-title {
+    top: 20px;
+    left: 140px;
+}
+
+#section-apparatus-subtitles {
+    top: 240px;
+    left: 0px;
+}
+
+#section-apparatus-elements {
+    top: 80px;
+    left: 75px;
+}
+
+#section-apparatus-elements .arrow1 {
+    top: 126px;
+    left: 60px;
+}
+
+#section-apparatus-elements .arrow2 {
+    top: 27px;
+    left: -18px;
+}
+
+#section-apparatus-elements .icon-brain {
+    top: 15px;
+    left: 29px;
+}
+
+
+/* expertise */
+#section-expertise-title {
+    top: 20px;
+    left: 160px;
+}
+
+#section-expertise-2-subtitles {
+    top: 240px;
+    left: 15px;
+}
+
+#section-expertise-2-elements {
+    top: 81px;
+    left: 84px;
+}
+
+#section-expertise-2-elements .arrow1 {
+    top: 75px;
+    left: 100px;
+}
+
+#section-expertise-2-elements .arrow2 {
+    top: 20px;
+    left: -15px;
+}
+
+#section-expertise-2-elements .icon-eye {
+    top: 17px;
+    left: 30px;
+}
+
+
+#section-expertise-3-subtitles {
+    top: 180px;
+    left: 15px;
+    font-size: 1.35em;
+}
+
+#section-expertise-3-list {
+    top: 295px;
+    left: 120px;
+    width: 170px;
+}
+
+#section-expertise-3-list .section-list-item {
+    margin: 0 5px 5px 0;
+}
+
+#section-expertise-3-list img {
+    max-width: 35px;
+}
+
+#section-expertise-3-elements {
+    top: 85px;
+    left: 160px;
+}
+
+#section-expertise-3-elements .arrow4 {
+    top: 75px;
+    left: 120px;
+}
+
+#section-expertise-3-elements .arrow5 {
+    left: -20px;
+}
+
+#section-expertise-3-elements .arrow3,
+#section-expertise-3-elements .arrow7 {
+    display: none;
+}
+
+
+#section-expertise-1-subtitles {
+    top: 200px;
+    left: 130px;
+}
+
+#section-expertise-1-elements {
+    top: 170px;
+    left: 10px;
+}
+
+#section-expertise-1-elements .arrow6 {
+    top: 65px;
+    left: 10px;
+}
+
+
+/* Home */
+#section-home-quote {
+    top: 175px;
+    margin-left: 5px;
+    width: 180px;
+}
+
+#home-tip {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 2em;
+    text-align: center;
+    background: rgba(255,255,255,.8);
+    color: #000;
+}
+
+#home-tip .keyboard,
+#home-tip .touch {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    width: 230px;
+    height: 72px;
+    margin: -36px 0 0 -115px;
+}
+
+
+/* Contact */
+#contact-email {
+    top: 190px;
+    font-size: 1.3em;
+}
+
+#contact-facebook {
+    top: 220px;
+    font-size: 0.79em;
+}
+
+.section-contact-object, .section-contact-link {
+    width: 170px;
+    margin-left: -85px;
+    padding: 2px 2px 5px;
+}
+
+#contact-telefone {
+    top:300px;
+    font-size: 1.3em;
+}
+
+#contact-address {
+    top:330px;
+    font-size: 0.6em;
+}

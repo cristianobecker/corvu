@@ -1,0 +1,13 @@
+@media only screen and (min-width: 480px) {
+
+/* ==============
+    WIDE
+   ============== */
+
+    /* Content */
+    #wrapper {
+        min-height: 400px;
+    }
+
+
+}
