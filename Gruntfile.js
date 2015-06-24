@@ -29,6 +29,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
 
         pkg: grunt.file.readJSON("package.json"),
+        build: +new Date(),
 
         watch: {
             options: {
@@ -74,7 +75,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: {
-                    "build/assets/js/corvu.min.js": files.js
+                    "build/assets/js/corvu.min.<%= build %>.js": files.js
                 }
             }
         },
@@ -85,7 +86,7 @@ module.exports = function (grunt) {
                     banner: "/*! <%= pkg.name %> <%= grunt.template.today('dd-mm-yyyy') %> */\n"
                 },
                 files: {
-                    "build/assets/css/corvu.min.css": files.css
+                    "build/assets/css/corvu.min.<%= build %>.css": files.css
                 }
             }
         },
@@ -96,7 +97,7 @@ module.exports = function (grunt) {
                 src: "source/*.html",
                 dest: "build/",
                 options: {
-                    buildNumber: +new Date(),
+                    buildNumber: "<%= build %>",
                 }
             }
         },
